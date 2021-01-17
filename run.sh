@@ -15,4 +15,4 @@ EXPOSE+=" -p 8080:80 -p 1883:1883"
 #Allow to access X11
 xauth nlist "$DISPLAY" | sed -e 's/^..../ffff/' | xauth -f "$XAUTH" nmerge -
 
-docker run -i -t $VOLUMES $ENV_VARS $EXPOSE maxcube:latest
+docker run -i -t $VOLUMES $ENV_VARS $EXPOSE max-home-automation:latest

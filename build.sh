@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build . -t maxcube:latest
+docker build . -t max-home-automation:latest
