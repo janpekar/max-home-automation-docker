@@ -1,2 +1,4 @@
 #!/bin/bash
-docker build . -t max-home-automation:latest
+#nocache="--no-cache"
+params=$nocache
+docker build . $params -t max-home-automation:latest
